@@ -49,38 +49,33 @@
 			</tbody>
 		</table>
 		<h2>Agregar Educacion</h2>
-		<p>
+		<form autocomplete="on" name="Agregar Educacion">
+	  <p>
 		<label for="año">Año </label>
-		<br>
 		<input type="number" min="1960" max="2099" step="1" value="2017" />
-		</p>
-		<form name="educacion">
-		<p>
-		<label for="Name">Institucion</label>
-		<br>
-		<input type="text" id="Institucion" name="Institucion" placeholder="Instituto" autofocus required size="50">
 	</p>
 	<p>
+		<label for="Name">Institucion</label>
+		<input type="text" id="Institucion" name="Institucion" placeholder="Instituto" autofocus required size="50"/>
+	  </p>
+	  <p>
 		<label for="Name">Lugar</label>
-		<br>
 		<input type="text" id="Lugar" Name="Lugar" placeholder="Tinogasta" autofocus required size="30"> 
 	</p>
 	<p>
 		<label for="Name">Titulo</label>
-		<br>
 		<input type="text" id="Titulo" name="Titulo" placeholder="Tecnico" autofocus required size="50">
 	</p>
 	<p>
-		<label for="Name">Estado</label>
+		<label for id="Estado">Estado</label>
 		<br>
-		<input type="radio" name="Estado" value="Completo"> Completo<br>
-<input type="radio" name="Estado" value="Imcompleto"> Incompleto<br>
+		<input type="radio" name="curso" value="Completo" id="Estado"> Completo<br>
+        <input type="radio" name="curso" value="Incompleto" id="Estado"> Incompleto<br>
 	</p>
-	
 	<p>
 		<input type="submit" value="Registrar">
-	</p>
-</form>
+	</p>	
+	</form>
  <footer>
    @Derechos Reservados
     <ul>
